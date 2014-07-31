@@ -13,8 +13,8 @@ This repo is setup to help anyone interested in learning more about Solr get sta
 3. Change Directories: `cd /usr/local/cellar/solr/4.8.1/libexec/example`  and Start Solr: `java -jar start.jar`, leave this window open.
 4. Open another terminal and change directories: `cd /usr/local/cellar/solr/4.8.1/libexec/example/exampledocs`
 5. Unzip and post sample data: `java -Durl=http://localhost:8983/solr/collection1/update -Dtype=text/csv -jar post.jar /Users/elliottcordo/Downloads/yelp_solr.csv000`
-
-**Note windows or linux users will need to install using OS specific instructions, see Apache site for details. **
+  
+**Note windows or linux users will need to install using OS specific instructions, see Apache site for details.**
 
 If you want to install Banana visit the LucidWorks repo [here](https://github.com/LucidWorks/banana). Follow build and setup instructions. 
 
